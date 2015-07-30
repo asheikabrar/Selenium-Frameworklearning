@@ -14,7 +14,7 @@ public class BaseTest {
 	{
 		
 		driver = new FirefoxDriver();
-		
+		driver.get("http://localhost:81/opencart/");
 		driver.manage().window().maximize();
 		
 	}
