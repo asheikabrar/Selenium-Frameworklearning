@@ -14,7 +14,6 @@ public class BaseTest {
 	{
 		
 		driver = new FirefoxDriver();
-		driver.get("http://store.demoqa.com/");
 		
 		driver.manage().window().maximize();
 		
